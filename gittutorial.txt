@@ -24,7 +24,7 @@ help manage our project's files
 -- Staging = Control what gets committed
 -- commit
 
-(git status, git add -A, git commit -m 'mmmmmmmm'
+(git status, git add -A, git git commit -m 'mmmmmmmm'
 
 ---git checkout -- .
  git stores the data localy in hidden files on hard drive.
@@ -34,32 +34,48 @@ help manage our project's files
 Push & Pull
 Github is server host your repository
 
-Install git
-find/open command -line
+--Install git
+--find/open command -line
 git-scm.com download for window
+ 
+--git bash this window command line
 
--- git
-git bash
 git config --global user.name "Asia"
 asiakhidir@MITSELAA1077306 MINGW64 ~ (BARE:master)
 git config --global user.email "asiakhidir@qu.edu.qa"
-
 asiakhidir@MITSELAA1077306 MINGW64 ~ (BARE:master)
 
-pwd
-cd + add folder
- mkdir "hellow-world"
-pwd
-git init(initalize)
----asnwer  --- Initialized empty Git repository
+ *create folder in your computer name i t like (Projects, sites,...)
 
---create files
+ **return to git and see where current command line is pointing
 
-touch "index.html"
-git status
-git add index.html 
-git status
-git commit -m 'my first commit.'
+pwd
+**change direcory
+
+cd **(type location/ or drage your folder)
+
+pwd **(see last direcory)
+
+mkdir "hellow-world" **(how to create new direcotory)
+
+
+git init
+
+**  ( tracking or create new repository in this git will track hellow-world folder)
+
+touch "index.html" **  (create file under thi direcory)
+
+git status  **(will show what change was done) 
+
+git add index.html **(add this file to staging area) 
+
+git status **(show last changes)
+git commit -m 'my first commit.' 
+**( comment message in the history)
+
+**(Make any change in your file and even you can delete)
+git checkout -- .
+**(restore the file back to where we maid our comment
 
 
 
